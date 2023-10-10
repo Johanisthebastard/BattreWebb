@@ -13,7 +13,6 @@ body {
 	flex-direction: column;
 	background-color:rgb(102, 102, 102);
 	
-	
 }
 
 .header-container {
@@ -25,6 +24,8 @@ body {
 	justify-content: center;
 	border: 1px solid #e1ab20;
 	gap: 4px;
+	
+	
 	
 }
 
@@ -49,6 +50,7 @@ body {
 	justify-content: center;
 	font-family: 'Bebas Neue', sans-serif;
 	font-size: 100%
+	
 
 }
 	
@@ -101,18 +103,18 @@ main {
 footer {
 	background-color: #e1ab20;
 	display: flex;
+	flex-direction: column;
 	flex-grow: 1;
 	flex-wrap: wrap;
 	padding: 0.5em;
 	height: 8em;
 	font-family: 'Bebas Neue', sans-serif;
 	
+	
 
 }
 
-a {
-	text-decoration: none;
-}
+
 
 
 
