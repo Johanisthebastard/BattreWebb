@@ -1,54 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Oswald&display=swap');
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+
 body {
-	
+	display: flex;
+	flex-direction: column;
 	background-color:rgb(102, 102, 102);
+	
+	
+}
+
+.header-container {
+	background-color: #252525;
+	border-radius: 1em 1em 0em 0em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: 1px solid #e1ab20;
+	gap: 4px;
+	
 }
 
 .logga {
-	
-	display: flex;
-	height: 9em;
-	width: auto;
-	
-}
-
-header {
-	background-color: #202020;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0.5em;
+	width: 8em;
 	justify-content: center;
-	height: 8em;
+	margin-bottom: -0.6em;
+}
+
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 2em;
+	border: none;
+	width: 6em;
+	background-color: #e1ab20;
+	cursor: pointer;
+	justify-content: center;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 100%
+
+}
 	
 
+@media (max-width: 562px) {
+	.header-container {
+	  flex-direction: column;
+	  display: flex;
+	  align-items: center;
+	  gap: 2px;
+	
+	}
+}
+
+@media (min-width: 562px) {
+	.buttons {
+	  flex-direction: row;
+	  display: flex;
+	  align-items: center;
+	  margin-top: 7.5em;
+	  gap: 2px;
+	  
+	}
+}
+
+@media (min-width: 800px) {
+	.buttons {
+	  flex-direction: row;
+	  display: flex;
+	  align-items: center;
+	  margin-top: 7.5em;
+	  width: 8em;
+	  justify-content: center;
+	  
+	}
 }
 
 main {
-	
+	display: block;
 	background-color: #d1d1d1;
-	display: flex;
+	text-align: center;
 	flex-wrap: wrap;
-	padding: 0.5em;
 	align-items: end;
-	height: 40em;
-	
-	
+	height: auto;
+	font-family: 'Oswald', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	
 }
+
 
 footer {
 	background-color: #e1ab20;
 	display: flex;
+	flex-grow: 1;
 	flex-wrap: wrap;
 	padding: 0.5em;
 	height: 8em;
+	font-family: 'Bebas Neue', sans-serif;
 	
 
 }
 
-.navigation {
-	display: flex;
-	border: 2px solid black;
-	
-	
+a {
+	text-decoration: none;
 }
+
+
+
+
+
 
