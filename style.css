@@ -11,18 +11,18 @@
 body {
 	display: flex;
 	flex-direction: column;
-	background-color:rgb(102, 102, 102);
+	background-color: #252525;
 	
 }
 
 .header-container {
 	background-color: #252525;
-	border-radius: 1em 1em 0em 0em;
+	/* border-radius: 1em 1em 0em 0em; */
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	border: 1px solid #e1ab20;
+	/* border: 1px solid #e1ab20; */
 	gap: 4px;
 	
 	
@@ -61,6 +61,8 @@ body {
 	  display: flex;
 	  align-items: center;
 	  gap: 2px;
+	  padding-bottom: 0.6em;
+	  
 	
 	}
 }
@@ -120,7 +122,17 @@ footer {
 }
 
 
+.dag {
+	color: #e1ab20;
+	border-top: 2px solid black;
+	background-color: #252525; 
+	padding: 0.5em;
+	
+	border-radius: 0em 0em 5em 5m;
+}
 
-
-
-
+.lunch {
+	background-color:#e1ab20;
+	
+	
+}
