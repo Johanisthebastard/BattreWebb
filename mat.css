@@ -136,3 +136,79 @@ footer {
 	
 	
 }
+
+form {
+	
+	margin: 0.5em 0;
+	padding: 0 1em;
+}
+
+.form-section {
+	display: flex;
+	flex-direction: column;
+	margin: 1em 0;
+	
+}
+.form-section.row {
+	flex-direction: row;
+}
+
+input:valid {
+	border: 2px solid #e1ab20;
+	
+}
+input:invalid {
+	border: 2px solid rgb(155, 0, 0);
+}
+
+.error-message {
+	visibility: hidden;
+	margin: 0;
+	color: rgb(134, 0, 0);
+	
+}
+
+input:invalid + .error-message {
+	visibility: visible;
+}
+
+.kopmat {
+	
+	margin-bottom: 1em;
+	height: 2em;
+	border: none;
+	width: 6em;
+	background-color: #e1ab20;
+	cursor: pointer;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 100%
+	
+}
+
+.klyftpotatis {
+	
+	font-style: italic;
+	
+
+
+	
+}
+
+.matsedel {
+	color: #e1ab20;
+	background-color: #252525;
+	font-size: 3em;
+}
+
+.vegan {
+	color: Green;
+}
+
+.meat {
+	color: rgb(141, 8, 8);
+}
+
+.fish {
+	color: rgb(23, 94, 202);
+}
+

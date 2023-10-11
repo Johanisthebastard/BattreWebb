@@ -48,77 +48,59 @@
 	</header>
 	<main>
 		
-		<p>
-			Köp Biljettasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-			asd
-			asdasdas
-			asd
-			asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd
-		</p>
+		<form>
+				<h2>Kontaktuppgifter</h2>
+			<section class="form-section">
+				<label for="form-name"> Namn: </label>
+				<input id="form-name" type="text" required value="" 	placeholder="Namn"
+					required
+					minlength="1"
+					
+					/>
+				<p class="error-message"> Var vänlig skriv in ditt namn </p>
+			</section>
+			
+			<section class="form-section">
+				<label for="form-mail"> E-postadress: </label>
+				<input id="form-mail" type="email" required value=""
+				placeholder="epostadress@exempel.se" />
+				
+			</section>
+
+			
+
+			<section class="form-section">
+				<label for="form-password"> Lösenord: </label>
+				<input id="form-password" type="password" required />
+			</section>
+
+			<section class="form-section">
+				<h2>Vilka dagar vill du gå?</h2>
+				<div>
+					<input id="Fredag" type="checkbox" />
+					<label for="Fredag">Fredag 20/10</label>
+				</div>
+				<div>
+					<input id="Lördag" type="checkbox" />
+					<label for="Lördag">Lördag 21/10</label>
+
+				</div>
+				<div>
+					<input id="Söndag" type="checkbox" />
+					<label for="Söndag">Söndag 22/10</label>
+
+				</div>
+			</section>
+
+
+
+			<section>
+				<button type="submit" class="kopbiljett"> KÖP BILJETT </button>
+			</section>
+
+			
+		</form>
+
 		
 	</main>
 	<footer>
