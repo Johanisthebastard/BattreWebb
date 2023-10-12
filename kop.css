@@ -125,7 +125,8 @@ footer {
 	background-color: #e1ab20;
 	cursor: pointer;
 	font-family: 'Bebas Neue', sans-serif;
-	font-size: 100%
+	font-size: 100%;
+	margin: 2em;
 	
 }
 
@@ -159,7 +160,9 @@ form {
 .form-section {
 	display: flex;
 	flex-direction: column;
-	margin: 1em 0;
+	margin: 2em;
+	align-items: center;
+	
 	
 }
 .form-section.row {
