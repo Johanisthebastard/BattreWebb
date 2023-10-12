@@ -17,12 +17,12 @@ body {
 
 .header-container {
 	background-color: #252525;
-	/* border-radius: 1em 1em 0em 0em; */
+	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	/* border: 1px solid #e1ab20; */
+	border-bottom: 2px solid #e1ab20;
 	gap: 4px;
 	
 	
@@ -191,3 +191,11 @@ input:invalid + .error-message {
 .form-allergier {
 	display: flex;
 }
+
+.kopbild {
+	margin-top: 2em;
+	width: 100%;
+	height: auto;
+	max-width: 200px;
+}
+

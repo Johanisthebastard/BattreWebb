@@ -17,12 +17,12 @@ body {
 
 .header-container {
 	background-color: #252525;
-	/* border-radius: 1em 1em 0em 0em; */
+	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	/* border: 1px solid #e1ab20; */
+	border-bottom: 2px solid #e1ab20;
 	gap: 4px;
 	
 	
@@ -96,8 +96,9 @@ main {
 	text-align: center;
 	flex-wrap: wrap;
 	align-items: end;
-	height: auto;
+	/* height: auto; */
 	font-family: 'Oswald', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
 	
 }
 
@@ -137,3 +138,18 @@ footer {
 	
 	
 }
+
+
+.framsidabild {
+	max-width: 800px;
+	width: 100%;
+	height: auto;
+	
+  }
+
+
+
+  .datum {
+	background-color:#e1ab20;
+  }
+ 
