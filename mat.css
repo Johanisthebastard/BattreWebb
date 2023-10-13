@@ -53,6 +53,8 @@ body {
 	
 
 }
+
+.buttons:hover {background-color: #e7e7e7;}
 	
 
 @media (max-width: 562px) {
@@ -184,6 +186,8 @@ input:invalid + .error-message {
 	font-size: 100%
 	
 }
+
+.kopmat:hover {background-color: #e7e7e7; border: 3px dotted #e1ab20;}
 
 .klyftpotatis {
 	

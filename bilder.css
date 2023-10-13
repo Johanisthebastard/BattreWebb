@@ -7,6 +7,8 @@
 	text-decoration: none;
 }
 
+.buttons:hover {background-color: #e7e7e7;}
+
 
 body {
 	display: flex;

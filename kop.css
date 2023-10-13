@@ -53,6 +53,8 @@ body {
 	
 
 }
+
+.buttons:hover {background-color: #e7e7e7;}
 	
 
 @media (max-width: 562px) {
@@ -130,6 +132,9 @@ footer {
 	
 }
 
+
+.kopbiljett:hover {background-color: #e7e7e7; border: 3px dotted #e1ab20;}
+
 .biljett2 {
 	text-decoration: underline;
 	color: black;
@@ -198,4 +203,8 @@ input:invalid + .error-message {
 	height: auto;
 	max-width: 200px;
 }
+
+
+
+
 
