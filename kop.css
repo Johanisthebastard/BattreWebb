@@ -54,7 +54,7 @@ body {
 
 }
 
-.buttons:hover {background-color: #e7e7e7;}
+.buttons:hover {background-color: #d1d1d1;}
 	
 
 @media (max-width: 562px) {
@@ -135,26 +135,6 @@ footer {
 
 .kopbiljett:hover {background-color: #e7e7e7; border: 3px dotted #e1ab20;}
 
-.biljett2 {
-	text-decoration: underline;
-	color: black;
-}
-
-
-.dag {
-	color: #e1ab20;
-	border-top: 2px solid black;
-	background-color: #252525; 
-	padding: 0.5em;
-	
-	border-radius: 0em 0em 5em 5m;
-}
-
-.lunch {
-	background-color:#e1ab20;
-	
-	
-}
 
 form {
 	
@@ -182,16 +162,9 @@ input:invalid {
 	border: 2px solid rgb(155, 0, 0);
 }
 
-.error-message {
-	visibility: hidden;
-	margin: 0;
-	color: rgb(134, 0, 0);
-	
-}
 
-input:invalid + .error-message {
-	visibility: visible;
-}
+
+
 
 .form-allergier {
 	display: flex;

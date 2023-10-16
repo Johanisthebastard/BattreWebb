@@ -54,7 +54,7 @@ body {
 
 }
 
-.buttons:hover {background-color: #e7e7e7;}
+.buttons:hover {background-color: #d1d1d1;}
 	
 
 @media (max-width: 562px) {
@@ -139,21 +139,9 @@ footer {
 	
 }
 
-form {
-	
-	margin: 0.5em 0;
-	padding: 0 1em;
-}
 
-.form-section {
-	display: flex;
-	flex-direction: column;
-	margin: 1em 0;
-	
-}
-.form-section.row {
-	flex-direction: row;
-}
+
+
 
 input:valid {
 	border: 2px solid #e1ab20;
@@ -163,16 +151,6 @@ input:invalid {
 	border: 2px solid rgb(155, 0, 0);
 }
 
-.error-message {
-	visibility: hidden;
-	margin: 0;
-	color: rgb(134, 0, 0);
-	
-}
-
-input:invalid + .error-message {
-	visibility: visible;
-}
 
 .kopmat {
 	
@@ -222,15 +200,35 @@ input:invalid + .error-message {
 	flex-direction: column;
 	align-items: center;
 	
-	
-
 }
 
-.form-namnmat {
+
+.form-kost {
 	display: flex;
 	flex-direction: column;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	
+	
 	align-items: center;
+	font-size: 115%;
+
 
 }
+
+.form-dittnamn {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	align-items: center;
+	
+}
+
+.previousbild {
+	max-width: 80vh;
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5em;
+	
+  }
+
+

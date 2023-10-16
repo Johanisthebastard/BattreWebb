@@ -56,7 +56,7 @@ body {
 
 }
 
-.buttons:hover {background-color: #e7e7e7;}
+.buttons:hover {background-color: #d1d1d1;}
 	
 
 @media (max-width: 562px) {
@@ -137,11 +137,7 @@ footer {
 	border-radius: 0em 0em 5em 5m;
 }
 
-.lunch {
-	background-color:#e1ab20;
-	
-	
-}
+
 
 
 .framsidabild {

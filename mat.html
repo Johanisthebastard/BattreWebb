@@ -51,7 +51,9 @@
 		<p>Våran fantastiska kock Martin Von Fahlerströmming känd från Mästerkocken 2001 och hans fantastiska team på Restaurang Obi-Wan kommer att stå i köket under helgen. </p> 
 		<h2 class="matsedel">MENY</h2>
 
-		<p class="klyftpotatis">Samtliga rätter serveras med klyftpotatis von Brömsen</p> 
+		<img class="previousbild" src="Images/image0_0.jpg" alt="bild7" srcset="">
+
+		<p class="klyftpotatis">Samtliga rätter kostar 199 och serveras med klyftpotatis von Brömsen</p> 
 
 		<h3 class="meat">KÖTT</h3>
 		<p>Honungsslungad mandalorian med bearnaisesås</p>
@@ -64,21 +66,24 @@
 
 		<h3 class="boxa">Vänligen välj vilken rätt du önskar:</h3>
 
-		<section class="form-section">
+		<section class="form-kost">
 			
-			<div>
-				<input id="Fredag" type="checkbox" />
-				<label for="Fredag" class="meat">Kött</label>
-			</div>
-			<div>
-				<input id="Lördag" type="checkbox" />
-				<label for="Lördag" class="fish">Fisk</label>
-
-			</div>
-			<div>
-				<input id="Söndag" type="checkbox" />
-				<label for="Söndag" class="vegan">Vegansk</label>
+			
+			<label for="Kött" class="meat">Kött</label>
+				<input type="radio" name="mat" value="Kött" id="Kött" required />
+			
+			<label for="Fisk" class="fish">Fisk</label>
+				<input type="radio" name="mat" 		value="Kött" id="Fisk" />
+			
+			<label for="Veganskt" class="vegan">Veganskt</label>
+				<input type="radio" name="mat" value="Veganskt" id="Veganskt" />
+		
 				
+				
+
+
+
+			
 
 			</div>
 			<br>
@@ -86,8 +91,8 @@
 		
 		<h2>Allergier</h2>
 			<section class="form-allergier">
-				<label for="form-name"> Vänligen fyll i om du har några speciella allergier: </label> 
-				<input id="form-name" type="text"  	placeholder="Mjölkprotein, Jawas etc"
+				<label for="form-allergi"> Vänligen fyll i om du har några speciella allergier: </label> 
+				<input id="form-allergi" type="text"  	placeholder="Mjölkprotein, Jawas etc" 
 					
 					
 					
@@ -95,14 +100,17 @@
 				
 			</section>
 
-			<section class="form-namnmat">
+			<section class="form-dittnamn">
 				<label for="form-name"> Namn: </label>
-				<input id="form-name" type="text" required value="" 	placeholder="För- och efternamn"
-					required minlength="1"
+				<input id="form-name" type="" 	placeholder="För- och -efternamn"
+				required
+					
 					
 					/>
+					
 				
 			</section>
+
 			
 			
 			
