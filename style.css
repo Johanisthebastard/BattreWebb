@@ -5,6 +5,7 @@
 * {
 	box-sizing: border-box;
 	text-decoration: none;
+	
 }
 
 
@@ -12,8 +13,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #252525;
-	
-	
 	
 }
 
@@ -141,7 +140,7 @@ footer {
 
 
 .framsidabild {
-	max-width: 800px;
+	max-width: 655px;
 	width: 100%;
 	height: auto;
 	
