@@ -223,11 +223,16 @@ input:invalid {
 	
 }
 
-.previousbild {
+
+
+  .matensbild {
 	max-width: 80vh;
 	width: 100%;
 	height: auto;
 	margin-bottom: 1.5em;
+	border-bottom: 10px solid #e1ab20;
+	border-top: 10px solid #e1ab20;
+	
 	
   }
 

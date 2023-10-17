@@ -143,6 +143,8 @@ footer {
 	max-width: 655px;
 	width: 100%;
 	height: auto;
+	border-top: 10px solid #e1ab20;
+	border-bottom: 10px solid #e1ab20;
 	
   }
 
