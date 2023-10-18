@@ -51,7 +51,8 @@ body {
 	cursor: pointer;
 	justify-content: center;
 	font-family: 'Bebas Neue', sans-serif;
-	font-size: 100%
+	font-size: 100%;
+	color: inherit;
 	
 
 }
