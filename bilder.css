@@ -94,7 +94,7 @@ body {
 
 main {
 	display: block;
-	background-color: #252525;
+	background-color: #d1d1d1;
 	text-align: center;
 	flex-wrap: wrap;
 	align-items: end;
@@ -143,14 +143,18 @@ footer {
 	max-width: 80vh;
 	width: 100%;
 	height: auto;
-	margin-bottom: 1.5em;
+	margin: 0.5em; 
+	border: 10px solid #252525;
 	
   }
 
 
 
 .webb2 {
-	color:#e1ab20;
+	color: #e1ab20;
+	background-color: #252525;
+	font-size: 3em;
+	padding-bottom: 0.2em;
 	
 	
 }

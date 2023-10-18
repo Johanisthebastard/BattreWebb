@@ -5,6 +5,7 @@
 * {
 	box-sizing: border-box;
 	text-decoration: none;
+	
 }
 
 
@@ -92,6 +93,7 @@ body {
 	}
 }
 
+
 main {
 	display: block;
 	background-color: #d1d1d1;
@@ -176,14 +178,6 @@ input:invalid {
 	height: auto;
 	max-width: 200px;
 }
-
-.kontakt {
-
-
-	
-}
-
-
 
 
 
