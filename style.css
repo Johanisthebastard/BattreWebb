@@ -57,7 +57,7 @@ body {
 
 }
 
-.buttons:hover {background-color: #d1d1d1;}
+.buttons:hover {background-color: #d1d1d1; border:}
 	
 
 @media (max-width: 562px) {

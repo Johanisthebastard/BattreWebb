@@ -61,27 +61,31 @@
 			<section class="form-section">
 				<label for="form-name"> Namn: </label>
 				<input id="form-name" type="text" required value="" 	placeholder="Namn"
-					required minlength="1"
+				
+					
 					
 					/>
+					<p class="error-message"> Här behöver du skriva ditt namn </p>
 				
 			</section>
 
 			<section class="form-section">
 				<label for="form-name"> Adress: </label>
 				<input id="form-name" type="adress" required value="" 	placeholder="Exempelvägen 1337"
-					required minlength="1"
+					
 					
 					/>
+					<p class="error-message"> Här behöver du skriva din adress </p>
 				
 			</section>
 			
 			<section class="form-section">
 				<label for="form-name"> Postnummer: </label>
-				<input id="form-name" type="adress" required value="" 	placeholder="13 337 Göteborg"
-					required minlength="1"
+				<input id="form-name" type="adress" required value="" 	placeholder="13 337 Göteborg" 
+					
 					
 					/>
+					<p class="error-message"> Här behöver du skriva ditt postnummer </p>
 				
 			</section>
 
@@ -89,6 +93,7 @@
 				<label for="form-mail"> E-postadress: </label>
 				<input id="form-mail" type="email" required value=""
 				placeholder="epostadress@exempel.se" />
+				<p class="error-message"> Här behöver du skriva din E-mailadress </p>
 				
 			</section>
 
@@ -96,28 +101,35 @@
 
 			<section class="form-section">
 				<label for="form-password"> Lösenord: </label>
-				<input id="form-password" type="password" required />
-			</section>
+				<input id="form-password" type="password" required value=""
+				
+				/>
 
-		</form>
+				<p class="error-message"> Här behöver du skriva in önskat lösenord </p>
+
+				
+			</section>
+			
+
+		
 
 
 		
-		<form class="vilkadagar">
+		
 
 			<section class="form-section">
 				<h2>Vilka dagar vill du gå?</h2>
 				<div>
-					<input id="form-fredag" type="checkbox"  />
+					<input id="form-fredag" type="checkbox"  required/>
 					<label for="form-fredag">Fredag 20/10</label>
 				</div>
 				<div>
-					<input id="form-lördag" type="checkbox" />
+					<input id="form-lördag" type="checkbox" required/>
 					<label for="form-lördag">Lördag 21/10</label>
 
 				</div>
 				<div>
-					<input id="form-söndag" type="checkbox"  />
+					<input id="form-söndag" type="checkbox"  required/>
 					<label for="form-söndag">Söndag 22/10</label>
 
 				</div>
