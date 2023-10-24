@@ -60,7 +60,8 @@
 				<h2>Kontaktuppgifter</h2>
 			<section class="form-section">
 				<label for="form-name"> Namn: </label>
-				<input id="form-name" type="text" required value="" 	placeholder="Namn"
+				<input id="form-name" type="text" required value="" required minlength="5"	placeholder="För- och -Efternamn"
+				
 				
 					
 					
@@ -71,7 +72,7 @@
 
 			<section class="form-section">
 				<label for="form-name"> Adress: </label>
-				<input id="form-name" type="adress" required value="" 	placeholder="Exempelvägen 1337"
+				<input id="form-name" type="adress" required value="" required minlength="5"	placeholder="Exempelvägen 1337"
 					
 					
 					/>
@@ -81,7 +82,7 @@
 			
 			<section class="form-section">
 				<label for="form-name"> Postnummer: </label>
-				<input id="form-name" type="adress" required value="" 	placeholder="13 337 Göteborg" 
+				<input id="form-name" type="adress" required value="" required minlength="5"	placeholder="13 337 Göteborg" 
 					
 					
 					/>
@@ -91,7 +92,7 @@
 
 			<section class="form-section">
 				<label for="form-mail"> E-postadress: </label>
-				<input id="form-mail" type="email" required value=""
+				<input id="form-mail" type="email" required value="" required minlength="5"
 				placeholder="epostadress@exempel.se" />
 				<p class="error-message"> Här behöver du skriva din E-mailadress </p>
 				
@@ -101,11 +102,11 @@
 
 			<section class="form-section">
 				<label for="form-password"> Lösenord: </label>
-				<input id="form-password" type="password" required value=""
+				<input id="form-password" type="password" required value="" required minlength="10"
 				
 				/>
 
-				<p class="error-message"> Här behöver du skriva in önskat lösenord </p>
+				<p class="error-message"> Här behöver du skriva in önskat lösenord med minst 10 bokstäver</p>
 
 				
 			</section>

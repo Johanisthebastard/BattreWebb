@@ -189,7 +189,7 @@ input:invalid {
 .error-message {
 	visibility: hidden;
 	margin: 0;
-	color: rgb(111, 33, 33);
+	color: rgb(155, 0, 0);
 	font-weight: bold;
 }
 
@@ -197,6 +197,8 @@ input:invalid {
 input:invalid + .error-message {
 	visibility: visible;
 }
+
+
 
 
 

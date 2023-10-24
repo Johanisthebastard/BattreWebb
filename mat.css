@@ -145,12 +145,30 @@ footer {
 
 
 input:valid {
-	border: 2px solid #e1ab20;
+	border: 2px solid #228a0d;
+	border-right: 10px solid #228a0d;
+	
 	
 }
 input:invalid {
 	border: 2px solid rgb(155, 0, 0);
+	border-right: 10px solid rgb(155, 0, 0);
+	
 }
+
+.error-message {
+	visibility: hidden;
+	margin: 0;
+	color: rgb(155, 0, 0);
+	font-weight: bold;
+}
+
+
+input:invalid + .error-message {
+	visibility: visible;
+}
+
+
 
 
 .kopmat {
@@ -238,3 +256,6 @@ input:invalid {
   }
 
 
+.ofargad {
+	text-decoration: blue;
+}
